@@ -6,7 +6,7 @@ public class Main {
         System.out.print("Enter a number larger then 0: ");
         int num = input.nextInt();
         int numrev = 0;
-        while (num > 0) {
+        while (0 != num) {
             numrev = numrev * 10 + (num % 10);
             num = num / 10;
         }
